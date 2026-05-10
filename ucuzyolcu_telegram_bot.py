@@ -352,7 +352,8 @@ async def sifirla(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "🔄 Sohbet sıfırlandı!\n\n"
         "Yeni bir arama yapmak için şehir ve tarih yazın.\n"
-        "Örnek: _Trabzon'dan İstanbul'a bu ay_ ✈️",
+        "Örnek: _Trabzon'dan İstanbul'a bu ay_ ✈️\n\n"
+        "_(Önceki mesajlar silinmez, sadece bot hafızası temizlenir)_",
         parse_mode="Markdown"
     )
 
